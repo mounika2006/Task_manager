@@ -1,4 +1,4 @@
-# 🗂️ Task Manager Web Application
+# Task Manager Web Application
 
 A simple Task Manager built using **Flask**, **MongoDB**, **HTML**, and **CSS**.  
 Users can **sign up**, **log in**, and **manage their tasks**.  
@@ -6,18 +6,18 @@ An **Admin** can log in to view all registered users.
 
 ---
 
-## 📌 Features
+# Features
 
-- 🔐 User Registration and Login (with password hashing)
-- ➕ Add New Tasks
-- ✏️ Edit Existing Tasks
-- ❌ Delete Tasks
-- 👀 Admin Dashboard to view all users
-- 🧠 Session-based access control
+-  User Registration and Login (with password hashing)
+-  Add New Tasks
+-  Edit Existing Tasks
+-  Delete Tasks
+-  Admin Dashboard to view all users
+-  Session-based access control
 
 ---
 
-## 🛠️ Technologies Used
+# Technologies Used
 
 | Technology | Purpose |
 |-----------|---------|
