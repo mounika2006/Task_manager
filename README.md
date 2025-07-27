@@ -29,10 +29,4 @@ An **Admin** can log in to view all registered users.
 
 ---
 
-## 🔧 Setup Instructions
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/task-manager.git
-cd task-manager
 
