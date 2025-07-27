@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f9f9f9;
+            padding: 40px;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0;
+        }
+        li {
+            background: white;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        a {
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Admin Dashboard</h1>
+    <ul>
+        {% for user in users %}
+        <li>
+            <strong>{{ user.username }}</strong><br>
+            Email: {{ user.email }}
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="/">← Back to Home</a>
+</body>
+</html>
